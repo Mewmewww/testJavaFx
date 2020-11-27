@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+
+          <Label text="Name" translateX="200" translateY="-175" GridPane.rowIndex="1">Name</Label>
+          <Label translateX="150" translateY="-100" GridPane.rowIndex="1">Write down your sins below</Label>
+          <TextField fx:id="textfeltone" translateX="0" translateY="-150" GridPane.rowIndex="1">Insert your name here: </TextField>
+          <Button fx:id="knap" onAction="#noteDownSins" text="Save" translateX="0" translateY="-120" GridPane.rowIndex="1">Save</Button>
+          <TextArea fx:id="textfelt" translateX="0" translateY="0" GridPane.rowIndex="1">Write down your sins here: </TextArea>
+          <Button fx:id="knapet" onAction="#randomResult" translateX="0" translateY="130" GridPane.rowIndex="1">Show me the results</Button>
+          <TextField fx:id="textfeltwo" translateX="0" translateY="150" GridPane.rowIndex="1">Result:</TextField>
+
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+
+</GridPane>
